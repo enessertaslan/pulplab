@@ -12,7 +12,7 @@ export default function AboutTwo() {
           <div className="relative order-1 md:order-2">
             <div className="relative overflow-hidden rounded-lg border border-amber-400/5 bg-gradient-to-tl to-amber-400/30  from-fuchsia-600/30 dark:to-amber-400/50 dark:from-fuchsia-600/50 pe-6 pt-6 lg:ms-8">
               <Image
-                src="/images/features/2.png"
+                src="/images/featuretab/a2.png"
                 width={0}
                 height={0}
                 sizes="100vw"
