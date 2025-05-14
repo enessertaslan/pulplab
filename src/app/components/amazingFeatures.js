@@ -79,12 +79,9 @@ export default function AmazingFeatures() {
                 </div>
 
                 <div className="content mt-6">
-                  <Link
-                    href=""
-                    className="font-semibold text-xl hover:text-emerald-400"
-                  >
+                  <p className="font-semibold text-xl cursor-pointer hover:text-emerald-400">
                     {item.title}
-                  </Link>
+                  </p>
                   <p className="text-slate-400 mt-3">{item.desc}</p>
                   <div className="mt-4">
                     <Link

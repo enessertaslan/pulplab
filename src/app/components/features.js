@@ -4,19 +4,19 @@ import Image from "next/image";
 export default function Features({ classlist }) {
   const featuresData = [
     {
-      image: "/images/hero/1.png",
+      image: "/images/hero/2.avif",
       title: "AI for Traditional Companies",
       desc:
         "Cut 30% of operational costs by automating inventory, reporting, and internal communications.",
     },
     {
-      image: "/images/hero/2.png",
+      image: "/images/hero/1.avif",
       title: "AI for Crypto & Web3",
       desc:
         "Manage communities, automate support, and track key metrics with smart integrations.",
     },
     {
-      image: "/images/hero/3.png",
+      image: "/images/hero/3.avif",
       title: "AI for Digital Transition",
       desc:
         "No tech team? No problem. Plug & play AI tools tailored for logistics, service, real estate, and more.",
@@ -27,11 +27,11 @@ export default function Features({ classlist }) {
       <div className={classlist}>
         <div className="grid grid-cols-1 pb-6 text-center">
           <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
-            Make an
-            <br /> Outstanding Move{" "}
+            <br />{" "}
             <span className="bg-gradient-to-br from-amber-400 to-fuchsia-600 text-transparent bg-clip-text">
-              for Your Company’s Future
+              Make an Outstanding Move{" "}
             </span>
+            for Your Company’s Future
           </h3>
 
           <p className="text-slate-400 max-w-xl mx-auto"></p>

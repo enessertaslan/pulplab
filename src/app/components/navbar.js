@@ -124,16 +124,16 @@ export default function Navbar() {
           <Link className="logo" href="/">
             <Image
               src="/images/pulp-logo.svg"
-              width={148}
-              height={44}
-              className="h-6 inline-block dark:hidden"
+              width={200}
+              height={75}
+              className="h-7 inline-block dark:hidden"
               alt=""
             />
             <Image
               src="/images/pulp-logo.svg"
-              width={148}
-              height={44}
-              className="h-6 hidden dark:inline-block"
+              width={200}
+              height={75}
+              className="h-7 hidden dark:inline-block"
               alt=""
             />
           </Link>
@@ -183,14 +183,8 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link href="/pricing" className="sub-menu-item">
-                  Pricing{" "}
-                </Link>
-              </li>
-
-              <li>
-                <Link href="/contact" className="sub-menu-item">
-                  Contact
+                <Link href="/helpdesk" className="sub-menu-item">
+                  Helpdesk{" "}
                 </Link>
               </li>
             </ul>

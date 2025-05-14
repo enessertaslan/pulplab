@@ -11,8 +11,9 @@ const figtree = Figtree({
 });
 
 export const metadata = {
-  title: "PulpLab ",
-  description: "Pioneering the Future of AI-Powered Automation",
+  title: "Don’t Work Harder. Work Smarter — with AI Built Just for You. ",
+  description:
+    "PulpLab creates AI-powered systems that fit your business like a glove.From reporting and internal processes to support and analytics. We automate the boring so you can focus on scaling.",
 };
 
 export default function RootLayout({ children }) {

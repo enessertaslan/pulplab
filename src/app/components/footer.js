@@ -38,12 +38,13 @@ export default function Footer() {
             <div className="grid grid-cols-1 text-center">
               <div className="">
                 <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl text-white tracking-normal mb-4">
-                  Start Your Free Trial Today
+                  Book Your Free Call Today
                 </h4>
                 <p className="text-white/70 text-lg max-w-xl mx-auto">
-                  Get ahead of the curve with powerful AI tools made for real
+                  Stay ahead with powerful AI solutions tailored to real
                   business needs.
-                  <b>No coding. No fluff. Just results.</b>
+                  <br />
+                  <b>No tech jargon. No hassle. Just actionable insights.</b>
                 </p>
 
                 <div className="mt-6">
@@ -58,7 +59,7 @@ export default function Footer() {
                     }}
                     className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center  hover:bg-emerald-400 border-emerald-800 hover:border-emerald-400 text-white rounded-md"
                   >
-                    Join For Free!
+                    Book A Call Today
                   </Link>
                 </div>
               </div>
