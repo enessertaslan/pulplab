@@ -1,43 +1,51 @@
 import React from "react";
 import Link from "next/link";
-
+import {
+  FiFileText,
+  FiVideo,
+  FiPauseCircle,
+  FiCamera,
+  FiLayout,
+  FiMessageCircle,
+  FiHexagon,
+} from "../assets/icons/vander";
 export default function AmazingFeatures() {
-  const featureData = [
+  const casesData = [
     {
-      icon: "mdi mdi-alarm-plus",
-      title: " Automated Workflow Builder",
+      icon: FiFileText,
+      title: " AI-Powered Workflow Automation",
       desc:
-        "The phrasal sequence of the is now so that many campaign and benefit",
+        "Automate your daily business processes, from task assignments to approvals, without writing a single line of code.",
     },
     {
-      icon: "mdi mdi-email-edit-outline",
-      title: "Email & Messaging Bot Integration",
+      icon: FiVideo,
+      title: " Smart Email & Message Responders",
       desc:
-        "The phrasal sequence of the is now so that many campaign and benefit",
+        "Let AI instantly handle repetitive support requests via email, WhatsApp, or Telegram — so your team can focus on what matters.",
     },
     {
-      icon: "mdi mdi-monitor-dashboard",
-      title: "Real-Time Analytics & Dashboards",
+      icon: FiPauseCircle,
+      title: "Real-Time Analytics & Business Insights",
       desc:
-        "The phrasal sequence of the is now so that many campaign and benefit",
+        "Get a live dashboard that shows your KPIs, performance bottlenecks, and growth opportunities — powered by AI.",
     },
     {
-      icon: "mdi mdi-send",
-      title: "CRM, Discord, Telegram Integrations",
+      icon: FiCamera,
+      title: "AI Assistants for Web3 Projects",
       desc:
-        "The phrasal sequence of the is now so that many campaign and benefit",
+        "From Discord community moderation to automated airdrop management — we build AI tools tailor-made for crypto & Web3 needs.",
     },
     {
-      icon: "mdi mdi-translate",
-      title: " Multi-Language AI Assistants",
+      icon: FiLayout,
+      title: "Voice & Chat AI Assistants for Your Team",
       desc:
-        " Support your global teams and customers with AI-powered responses in 20+ languages.",
+        "Empower your internal operations with multilingual voice/chatbots that help employees complete tasks faster and smarter.",
     },
     {
-      icon: "mdi mdi-account-group",
-      title: " Role-Based Access & Team Collaboration",
+      icon: FiMessageCircle,
+      title: "Custom AI Solutions for Any Business",
       desc:
-        " Assign roles, manage permissions, and streamline collaboration across departments securely.",
+        "Whether you're in logistics, retail, finance, or manufacturing — we design AI solutions that match your exact workflow and goals.",
     },
   ];
   return (
@@ -56,31 +64,41 @@ export default function AmazingFeatures() {
         </div>
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-6 gap-6">
-          {featureData.map((item, index) => {
+          {casesData.map((item, index) => {
+            const Icon = item.icon;
             return (
               <div
-                className="px-6 py-10 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 duration-500 rounded-lg bg-white dark:bg-slate-900"
+                className="p-6 rounded-md shadow dark:shadow-gray-800 group bg-white dark:bg-slate-900 hover:bg-amber-400/5 dark:hover:bg-amber-400/5 duration-500"
                 key={index}
               >
-                <i
-                  className={`${item.icon} text-4xl bg-gradient-to-tl to-amber-400 from-fuchsia-600 text-transparent bg-clip-text`}
-                ></i>
+                <div className="relative overflow-hidden text-transparent -m-3">
+                  <FiHexagon className="h-24 w-24 fill-amber-400/10 group-hover:fill-amber-400/20 duration-500" />
+                  <div className="absolute top-2/4 -translate-y-2/4 start-9 text-amber-400 rounded-xl text-2xl flex align-middle justify-center items-center">
+                    <Icon />
+                  </div>
+                </div>
 
-                <div className="content mt-7">
+                <div className="content mt-6">
                   <Link
                     href=""
-                    className="title h5 text-lg font-medium hover:text-amber-400 duration-500"
+                    className="font-semibold text-xl hover:text-amber-400"
                   >
                     {item.title}
                   </Link>
                   <p className="text-slate-400 mt-3">{item.desc}</p>
-
-                  <div className="mt-5">
+                  <div className="mt-4">
                     <Link
                       href=""
+                      onClick={(e) => {
+                        e.preventDefault();
+                        Calendly.initPopupWidget({
+                          url:
+                            "https://calendly.com/c-kestir-pulpmedia/60-minute-meeting-clone?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=fb923c",
+                        });
+                      }}
                       className="hover:text-amber-400 font-medium duration-500"
                     >
-                      Read More{" "}
+                      Book A Call{" "}
                       <i className="mdi mdi-arrow-right align-middle"></i>
                     </Link>
                   </div>

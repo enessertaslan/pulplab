@@ -99,7 +99,7 @@ export default function Index() {
         <AboutOne />
         <AboutTwo />
         <AmazingFeatures />
-        <AppVisual />
+        {/* <AppVisual /> */}
 
         <div className="container relative md:mt-24 mt-16">
           <div className="grid grid-cols-1 pb-6 text-center">
