@@ -50,7 +50,7 @@ export default function AboutOne() {
               </li>
             </ul>
             <p className="text-slate-400 max-w-xl">
-              Whether you're a traditional company modernizing operations or a
+              Whether you’re a traditional company modernizing operations or a
               tech-driven startup scaling fast, we help you grow smarter, not
               harder. Unlock measurable results with AI-powered systems tailored
               to your unique business model.
