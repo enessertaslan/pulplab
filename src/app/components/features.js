@@ -27,9 +27,10 @@ export default function Features({ classlist }) {
       <div className={classlist}>
         <div className="grid grid-cols-1 pb-6 text-center">
           <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
-            AI + video creation = <br /> outstanding{" "}
+            Make an
+            <br /> Outstanding Move{" "}
             <span className="bg-gradient-to-br from-amber-400 to-fuchsia-600 text-transparent bg-clip-text">
-              Mortal.Ai
+              for Your Company’s Future
             </span>
           </h3>
 
