@@ -132,7 +132,7 @@ export default function AboutUs() {
                 new levels of growth.
                 <br />
                 Unlike generic software tools, our solutions are crafted
-                specifically for your workflows — whether you're in
+                specifically for your workflows — whether you’re in
                 manufacturing, logistics, crypto, or digital services.
                 <br />
                 “Usually, our colleagues don’t get too excited about
