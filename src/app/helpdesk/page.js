@@ -16,58 +16,6 @@ import {
 } from "../assets/icons/vander";
 
 export default function Helpcenter() {
-  useEffect(() => {
-    document.documentElement.setAttribute("dir", "ltr");
-    document.documentElement.classList.add("dark");
-    document.documentElement.classList.remove("light");
-  }, []);
-  const [activeIndex, setActiveIndex] = useState(1);
-  const aboutData = [
-    {
-      icon: FiHelpCircle,
-      title: "FAQs",
-      desc:
-        "The phrasal sequence of the is now so that many campaign and benefit",
-    },
-    {
-      icon: FiBookmark,
-      title: "Guides / Support",
-      desc:
-        "The phrasal sequence of the is now so that many campaign and benefit",
-    },
-    {
-      icon: FiSettings,
-      title: "Support Request",
-      desc:
-        "The phrasal sequence of the is now so that many campaign and benefit",
-    },
-  ];
-  const accordianData = [
-    {
-      id: 1,
-      title: "How does it generate responses?",
-      desc:
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.",
-    },
-    {
-      id: 2,
-      title: "Is AI copywriting more cost-effective than hiring human writers?",
-      desc:
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.",
-    },
-    {
-      id: 3,
-      title: "Can AI copywriting be customized to my brand and audience?",
-      desc:
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.",
-    },
-    {
-      id: 4,
-      title: "What kind of support is available for AI copywriting tools?",
-      desc:
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.",
-    },
-  ];
   return (
     <>
       <Navbar />
@@ -84,7 +32,6 @@ export default function Helpcenter() {
         <Faq2> </Faq2>
       </section>
       <Footer />
-      <Switcher />
     </>
   );
 }

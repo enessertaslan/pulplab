@@ -124,16 +124,16 @@ export default function Navbar() {
           <Link className="logo" href="/">
             <Image
               src="/images/pulp-logo.svg"
-              width={200}
+              width={100}
               height={75}
-              className="h-7 inline-block dark:hidden"
+              className="h-7 inline-block pl-0 dark:hidden"
               alt=""
             />
             <Image
               src="/images/pulp-logo.svg"
-              width={200}
+              width={100}
               height={75}
-              className="h-7 hidden dark:inline-block"
+              className="h-7 hidden pl-0 dark:inline-block"
               alt=""
             />
           </Link>
@@ -174,7 +174,7 @@ export default function Navbar() {
           <div id="navigation" className={`${toggleMenu ? "block" : ""}`}>
             <ul className="navigation-menu">
               <li className="has-submenu parent-menu-item">
-                <Link href="#">Home</Link>
+                <Link href="/">Home</Link>
               </li>
 
               <li>

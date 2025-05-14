@@ -16,7 +16,13 @@ export default function BrandLogo() {
         {brandLogo.map((item, index) => {
           return (
             <div className="mx-auto py-4" key={index}>
-              <Image width={94} height={44} src={item} className="h-6" alt="" />
+              <Image
+                width={100}
+                height={50}
+                src={item}
+                className="h-6"
+                alt=""
+              />
             </div>
           );
         })}

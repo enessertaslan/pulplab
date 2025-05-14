@@ -31,6 +31,7 @@ export default function Features({ classlist }) {
             <span className="bg-gradient-to-br from-amber-400 to-fuchsia-600 text-transparent bg-clip-text">
               Make an Outstanding Move{" "}
             </span>
+            <br className="md:hidden" />
             for Your Company’s Future
           </h3>
 
