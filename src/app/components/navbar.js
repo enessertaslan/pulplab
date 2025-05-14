@@ -165,7 +165,7 @@ export default function Navbar() {
                       "https://calendly.com/c-kestir-pulpmedia/60-minute-meeting-clone?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=fb923c",
                   });
                 }}
-                className="py-[6px] px-4 inline-block items-center justify-center tracking-wider align-middle duration-500 text-sm text-center rounded bg-amber-400 hover:bg-amber-500 border border-amber-400 hover:border-amber-500 text-white font-semibold"
+                className="py-[6px] px-4 inline-block items-center justify-center tracking-wider align-middle duration-500 text-sm text-center rounded bg-emerald-400 hover:bg-emerald-500 border border-emerald-400 hover:border-emerald-500 text-white font-semibold"
               >
                 Book A Call
               </Link>

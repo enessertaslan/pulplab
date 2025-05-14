@@ -32,18 +32,18 @@ export default function AboutOne() {
 
             <ul className="list-none text-slate-400 mt-4">
               <li className="mb-2 flex items-center">
-                <FiCheckCircle className="text-amber-400 h-5 w-5 me-2" />
+                <FiCheckCircle className="text-emerald-400 h-5 w-5 me-2" />
                 Automate repetitive, time-consuming tasks — reduce human error
                 and free up hours of manual effort every single week.
               </li>
               <li className="mb-2 flex items-center">
-                <FiCheckCircle className="text-amber-400 h-5 w-5 me-2" />
+                <FiCheckCircle className="text-emerald-400 h-5 w-5 me-2" />
                 Optimize workflows across departments — from operations to
                 customer service, we streamline processes for maximum
                 efficiency.
               </li>
               <li className="mb-2 flex items-center">
-                <FiCheckCircle className="text-amber-400 h-5 w-5 me-2" />
+                <FiCheckCircle className="text-emerald-400 h-5 w-5 me-2" />
                 Empower your team to focus on high-impact decisions — let your
                 people do what they do best: innovate, strategize, and grow your
                 business.
@@ -65,7 +65,7 @@ export default function AboutOne() {
                       "https://calendly.com/c-kestir-pulpmedia/60-minute-meeting-clone?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=fb923c",
                   });
                 }}
-                className="hover:text-amber-400 font-medium duration-500 inline-flex items-center"
+                className="hover:text-emerald-400 font-medium duration-500 inline-flex items-center"
               >
                 Book A Call{" "}
                 <MdKeyboardArrowRight className="ms-1 text-[20px]" />

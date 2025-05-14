@@ -67,7 +67,7 @@ export default function Index() {
                         "https://calendly.com/c-kestir-pulpmedia/60-minute-meeting-clone?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=fb923c",
                     });
                   }}
-                  className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-amber-400 hover:bg-amber-500 border-amber-400 hover:border-amber-500 text-white rounded-md"
+                  className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-emerald-400 hover:bg-emerald-500 border-emerald-400 hover:border-emerald-500 text-white rounded-md"
                 >
                   Book a Call
                 </Link>
@@ -103,17 +103,11 @@ export default function Index() {
 
         <div className="container relative md:mt-24 mt-16">
           <div className="grid grid-cols-1 pb-6 text-center">
-            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
-              The right plans, <br />{" "}
+            <h3 className="mb-4 md:text-5xl md:leading-normal text-4xl leading-normal font-semibold">
               <span className="bg-gradient-to-br from-amber-400 to-fuchsia-600 text-transparent bg-clip-text">
-                for the right price
+                FAQ
               </span>
             </h3>
-
-            <p className="text-slate-400 max-w-xl mx-auto">
-              Artificial intelligence makes it fast easy to create content for
-              your blog, social media, website, and more!
-            </p>
           </div>
         </div>
         <Faq2 />

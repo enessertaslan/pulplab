@@ -56,7 +56,7 @@ export default function Footer() {
                           "https://calendly.com/c-kestir-pulpmedia/60-minute-meeting-clone?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=fb923c",
                       });
                     }}
-                    className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-transparent hover:bg-amber-400 border-gray-800 dark:border-slate-800 hover:border-amber-400 dark:hover:border-amber-400 text-white rounded-md"
+                    className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center  hover:bg-emerald-400 border-emerald-800 hover:border-emerald-400 text-white rounded-md"
                   >
                     Join For Free!
                   </Link>
@@ -87,7 +87,7 @@ export default function Footer() {
                     <Link
                       href="https://www.linkedin.com/company/pumpwithpulp"
                       target="_blank"
-                      className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 dark:border-slate-800 rounded-md hover:border-amber-400 dark:hover:border-amber-400 hover:bg-amber-400 dark:hover:bg-amber-400 text-slate-300 hover:text-white"
+                      className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 dark:border-slate-800 rounded-md hover:border-emerald-400 dark:hover:border-emerald-400 hover:bg-emerald-400 dark:hover:bg-emerald-400 text-slate-300 hover:text-white"
                     >
                       <FiLinkedin className="h-4 w-4 align-middle" />
                     </Link>
@@ -96,7 +96,7 @@ export default function Footer() {
                     <Link
                       href="https://x.com/PumpWithPULP"
                       target="_blank"
-                      className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 dark:border-slate-800 rounded-md hover:border-amber-400 dark:hover:border-amber-400 hover:bg-amber-400 dark:hover:bg-amber-400 text-slate-300 hover:text-white"
+                      className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 dark:border-slate-800 rounded-md hover:border-emerald-400 dark:hover:border-emerald-400 hover:bg-emerald-400 dark:hover:bg-emerald-400 text-slate-300 hover:text-white"
                     >
                       <FiTwitter className="h-4 w-4 align-middle" />
                     </Link>
@@ -104,7 +104,7 @@ export default function Footer() {
                   <li className="inline">
                     <Link
                       href="mailto:info@pulplab.io"
-                      className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 dark:border-slate-800 rounded-md hover:border-amber-400 dark:hover:border-amber-400 hover:bg-amber-400 dark:hover:bg-amber-400 text-slate-300 hover:text-white"
+                      className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 dark:border-slate-800 rounded-md hover:border-emerald-400 dark:hover:border-emerald-400 hover:bg-emerald-400 dark:hover:bg-emerald-400 text-slate-300 hover:text-white"
                     >
                       <FiMail className="h-4 w-4 align-middle" />
                     </Link>

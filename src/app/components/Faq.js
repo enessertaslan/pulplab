@@ -113,7 +113,7 @@ export default function Faq() {
                       onClick={() => setActiveIndex(item.id)}
                       className={`${
                         activeIndex === item.id
-                          ? "bg-gray-50 dark:bg-slate-800 text-amber-400"
+                          ? "bg-gray-50 dark:bg-slate-800 text-emerald-400"
                           : ""
                       } flex justify-between items-center p-5 w-full font-medium text-start`}
                     >

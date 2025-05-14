@@ -35,16 +35,16 @@ export default function AboutTwo() {
             </p>
             <ul className="list-none text-slate-400 mt-4">
               <li className="mb-2 flex items-center">
-                <FiCheckCircle className="text-amber-400 h-5 w-5 me-2" />{" "}
+                <FiCheckCircle className="text-emerald-400 h-5 w-5 me-2" />{" "}
                 Automate your invoices, daily reports, and employee
                 notifications
               </li>
               <li className="mb-2 flex items-center">
-                <FiCheckCircle className="text-amber-400 h-5 w-5 me-2" /> Our
+                <FiCheckCircle className="text-emerald-400 h-5 w-5 me-2" /> Our
                 Customize workflows that match your unique business structure
               </li>
               <li className="mb-2 flex items-center">
-                <FiCheckCircle className="text-amber-400 h-5 w-5 me-2" /> Sync
+                <FiCheckCircle className="text-emerald-400 h-5 w-5 me-2" /> Sync
                 with your tools like Slack, Gmail, Discord, CRM & more
               </li>
             </ul>
@@ -59,7 +59,7 @@ export default function AboutTwo() {
                       "https://calendly.com/c-kestir-pulpmedia/60-minute-meeting-clone?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=fb923c",
                   });
                 }}
-                className="hover:text-amber-400 font-medium duration-500 inline-flex items-center"
+                className="hover:text-emerald-400 font-medium duration-500 inline-flex items-center"
               >
                 Book A Call{" "}
                 <MdKeyboardArrowRight className="ms-1 text-[20px]" />

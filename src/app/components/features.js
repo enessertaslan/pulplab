@@ -4,19 +4,19 @@ import Image from "next/image";
 export default function Features({ classlist }) {
   const featuresData = [
     {
-      image: "/images/features/video-1.png",
+      image: "/images/hero/1.png",
       title: "AI for Traditional Companies",
       desc:
         "Cut 30% of operational costs by automating inventory, reporting, and internal communications.",
     },
     {
-      image: "/images/features/video-2.png",
+      image: "/images/hero/2.png",
       title: "AI for Crypto & Web3",
       desc:
         "Manage communities, automate support, and track key metrics with smart integrations.",
     },
     {
-      image: "/images/features/video-3.png",
+      image: "/images/hero/3.png",
       title: "AI for Digital Transition",
       desc:
         "No tech team? No problem. Plug & play AI tools tailored for logistics, service, real estate, and more.",
@@ -34,10 +34,7 @@ export default function Features({ classlist }) {
             </span>
           </h3>
 
-          <p className="text-slate-400 max-w-xl mx-auto">
-            Artificial intelligence makes it fast easy to create content for
-            your blog, social media, website, and more!
-          </p>
+          <p className="text-slate-400 max-w-xl mx-auto"></p>
         </div>
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-6 gap-6">

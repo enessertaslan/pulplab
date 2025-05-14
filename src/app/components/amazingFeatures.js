@@ -72,8 +72,8 @@ export default function AmazingFeatures() {
                 key={index}
               >
                 <div className="relative overflow-hidden text-transparent -m-3">
-                  <FiHexagon className="h-24 w-24 fill-amber-400/10 group-hover:fill-amber-400/20 duration-500" />
-                  <div className="absolute top-2/4 -translate-y-2/4 start-9 text-amber-400 rounded-xl text-2xl flex align-middle justify-center items-center">
+                  <FiHexagon className="h-24 w-24 fill-emerald-400/10 group-hover:fill-emerald-400/20 duration-500" />
+                  <div className="absolute top-2/4 -translate-y-2/4 start-9 text-emerald-400 rounded-xl text-2xl flex align-middle justify-center items-center">
                     <Icon />
                   </div>
                 </div>
@@ -81,7 +81,7 @@ export default function AmazingFeatures() {
                 <div className="content mt-6">
                   <Link
                     href=""
-                    className="font-semibold text-xl hover:text-amber-400"
+                    className="font-semibold text-xl hover:text-emerald-400"
                   >
                     {item.title}
                   </Link>
@@ -96,7 +96,7 @@ export default function AmazingFeatures() {
                             "https://calendly.com/c-kestir-pulpmedia/60-minute-meeting-clone?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=fb923c",
                         });
                       }}
-                      className="hover:text-amber-400 font-medium duration-500"
+                      className="hover:text-emerald-400 font-medium duration-500"
                     >
                       Book A Call{" "}
                       <i className="mdi mdi-arrow-right align-middle"></i>
