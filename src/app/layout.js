@@ -11,8 +11,8 @@ const figtree = Figtree({
 });
 
 export const metadata = {
-  title: "Mortal.Ai - Next Js AI Writer & Copywriting Template",
-  description: "Mortal.Ai - Next Js AI Writer & Copywriting Template",
+  title: "PulpLab ",
+  description: "Pioneering the Future of AI-Powered Automation",
 };
 
 export default function RootLayout({ children }) {
