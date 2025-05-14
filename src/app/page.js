@@ -19,6 +19,7 @@ const Footer = dynamic(() => import("./components/footer"));
 
 import { TypeAnimation } from "react-type-animation";
 import AppVisual from "./components/app-visual";
+import Faq2 from "./components/Faq2";
 export default function Index() {
   useEffect(() => {
     document.documentElement.setAttribute("dir", "ltr");
@@ -115,7 +116,7 @@ export default function Index() {
             </p>
           </div>
         </div>
-        <Faq />
+        <Faq2 />
       </section>
       <Footer />
     </>

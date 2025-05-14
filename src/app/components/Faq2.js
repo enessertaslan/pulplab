@@ -1,10 +1,47 @@
-import React, { useState } from "react";
+"use client";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 
-import { MdKeyboardArrowDown } from "../assets/icons/vander";
+const NavLight = dynamic(() => import("./navlight"));
+const Footer = dynamic(() => import("./footer"));
+const Switcher = dynamic(() => import("./switcher"));
 
-export default function Faq() {
+import {
+  FiHelpCircle,
+  FiBookmark,
+  FiSettings,
+  FiHexagon,
+  MdKeyboardArrowDown,
+} from "../assets/icons/vander";
+
+export default function Faq2() {
+  useEffect(() => {
+    document.documentElement.setAttribute("dir", "ltr");
+    document.documentElement.classList.add("dark");
+    document.documentElement.classList.remove("light");
+  }, []);
   const [activeIndex, setActiveIndex] = useState(1);
+  const aboutData = [
+    {
+      icon: FiHelpCircle,
+      title: "FAQs",
+      desc:
+        "The phrasal sequence of the is now so that many campaign and benefit",
+    },
+    {
+      icon: FiBookmark,
+      title: "Guides / Support",
+      desc:
+        "The phrasal sequence of the is now so that many campaign and benefit",
+    },
+    {
+      icon: FiSettings,
+      title: "Support Request",
+      desc:
+        "The phrasal sequence of the is now so that many campaign and benefit",
+    },
+  ];
   const accordionData = [
     {
       id: 1,
@@ -70,44 +107,16 @@ export default function Faq() {
   ];
   return (
     <>
-      <div className="container relative md:mt-24 mt-16">
-        <div className="grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 items-center md:gap-[30px]">
-          <div className="lg:col-span-4 md:mb-0 mb-8">
-            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
-              Have a question?
-            </h3>
-
-            <p className="text-slate-400 max-w-xl mx-auto mb-6">
-              Cut costs. Boost productivity. Eliminate inefficiencies. Your
-              smart AI automation journey starts here.
-            </p>
-
-            <Link
-              href=""
-              onClick={(e) => {
-                e.preventDefault();
-                Calendly.initPopupWidget({
-                  url:
-                    "https://calendly.com/c-kestir-pulpmedia/60-minute-meeting-clone?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=fb923c",
-                });
-              }}
-              className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-transparent hover:bg-amber-400 border-gray-100 dark:border-gray-800 hover:border-amber-400 dark:hover:border-amber-400 text-slate-900 dark:text-white hover:text-white rounded-md"
-            >
-              Contact Us
-            </Link>
-          </div>
-
-          <div className="lg:col-span-8 md:mt-0 mt-8">
+      <section className="relative bg-no-repeat bg-bottom bg-cover container">
+        <div className="lg:flex justify-center">
+          <div className="lg:w-3/4">
             {accordionData.map((item, index) => {
               return (
                 <div
                   className="relative shadow dark:shadow-gray-800 rounded-md overflow-hidden mt-4"
                   key={index}
                 >
-                  <h2
-                    className="text-base font-semibold"
-                    id="accordion-collapse-heading-1"
-                  >
+                  <h2 className="text-base font-semibold">
                     <button
                       type="button"
                       onClick={() => setActiveIndex(item.id)}
@@ -137,7 +146,7 @@ export default function Faq() {
             })}
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
