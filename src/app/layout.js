@@ -20,6 +20,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark scroll-smooth" dir="ltr">
       <head>
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-DG47LV95LE"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-DG47LV95LE');
+          `}
+        </Script>
         <link
           href="https://assets.calendly.com/assets/external/widget.css"
           rel="stylesheet"
