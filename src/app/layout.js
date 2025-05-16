@@ -3,7 +3,7 @@ import "./assets/css/tailwind.css";
 import "./assets/css/materialdesignicons.min.css";
 import { Figtree } from "next/font/google";
 import Script from "next/script";
-
+import { Analytics } from "@vercel/analytics/next";
 const figtree = Figtree({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
@@ -40,6 +40,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${figtree.variable} font-figtree text-base text-slate-900 dark:text-white dark:bg-slate-900`}
       >
+        <Analytics />
         <Script
           src="https://assets.calendly.com/assets/external/widget.js"
           strategy="lazyOnload"
