@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className="dark scroll-smooth" dir="ltr">
       <head>
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-G-QR086TYN4S
+          src="https://www.googletagmanager.com/gtag/js?id=G-QR086TYN4S
 "
           strategy="afterInteractive"
         />
