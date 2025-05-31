@@ -3,10 +3,10 @@ import Image from "next/image";
 
 export default function BrandLogo() {
   const brandLogo = [
+    "/images/partners/pertborsasi.png",
     "/images/partners/lemon.avif",
     "/images/partners/cls.avif",
-    "/images/partners/bitbull.avif",
-    "/images/partners/aiavatar.avif",
+    "/images/partners/bdtcoin.png",
     "/images/partners/ariacoin.avif",
     "/images/partners/spunky.avif",
   ];
