@@ -21,16 +21,17 @@ export default function RootLayout({ children }) {
     <html lang="en" className="dark scroll-smooth" dir="ltr">
       <head>
         <Script
-          id="google-tag-manager"
           strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-N4TH7T2M');`,
-          }}
+          src="https://www.googletagmanager.com/gtag/js?id=G-DG47LV95LE"
         />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-DG47LV95LE');
+          `}
+        </Script>
         <link
           href="https://assets.calendly.com/assets/external/widget.css"
           rel="stylesheet"
@@ -39,21 +40,12 @@ export default function RootLayout({ children }) {
       <body
         className={`${figtree.variable} font-figtree text-base text-slate-900 dark:text-white dark:bg-slate-900`}
       >
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-N4TH7T2M"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          />
-        </noscript>
         <Analytics />
         <Script
           src="https://assets.calendly.com/assets/external/widget.js"
           strategy="lazyOnload"
           async
         />
-
         {children}
       </body>
     </html>

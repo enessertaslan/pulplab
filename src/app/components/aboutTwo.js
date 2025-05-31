@@ -51,6 +51,7 @@ export default function AboutTwo() {
 
             <div className="mt-4">
               <Link
+                id="book"
                 href=""
                 onClick={(e) => {
                   e.preventDefault();

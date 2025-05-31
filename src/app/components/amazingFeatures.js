@@ -85,6 +85,7 @@ export default function AmazingFeatures() {
                   <p className="text-slate-400 mt-3">{item.desc}</p>
                   <div className="mt-4">
                     <Link
+                      id="book"
                       href=""
                       onClick={(e) => {
                         e.preventDefault();

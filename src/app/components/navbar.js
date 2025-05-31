@@ -156,6 +156,7 @@ export default function Navbar() {
           <ul className="buy-button list-none mb-0">
             <li className="md:inline hidden ps-1 mb-0 ">
               <Link
+                id="book"
                 href=""
                 target="_blank"
                 onClick={(e) => {

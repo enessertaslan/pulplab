@@ -49,6 +49,7 @@ export default function Footer() {
 
                 <div className="mt-6">
                   <Link
+                    id="book"
                     href=""
                     onClick={(e) => {
                       e.preventDefault();
