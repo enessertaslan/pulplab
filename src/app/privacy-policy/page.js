@@ -38,7 +38,7 @@ export default function Privacy(){
                         <div className="p-6 bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
                         Pulp AI Laboratory collects your name, email, company, and job title solely for the purpose of offering you personalized information and scheduling your requested AI automation session.
 We do not sell, share, or transfer your data to third parties.
-You can request deletion of your data at any time by contacting: info@pulplab.io
+You can request deletion of your data at any time by contacting: <a href="mailto:info@pulplab.io">info@pulplab.io</a> 
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,6 @@ You can request deletion of your data at any time by contacting: info@pulplab.io
         </section>
         
         <Footer/>
-        <Switcher/>
         </>
     )
 }

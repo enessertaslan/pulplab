@@ -104,12 +104,12 @@ export default function Footer() {
                     </Link>
                   </li>
                   <li className="inline">
-                    <Link
+                    <a
                       href="mailto:info@pulplab.io"
                       className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 dark:border-slate-800 rounded-md hover:border-emerald-400 dark:hover:border-emerald-400 hover:bg-emerald-400 dark:hover:bg-emerald-400 text-slate-300 hover:text-white"
                     >
                       <FiMail className="h-4 w-4 align-middle" />
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </div>
