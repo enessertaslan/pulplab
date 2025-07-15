@@ -71,7 +71,7 @@ export default function Footer() {
         <div className="container relative text-center">
           <div className="grid grid-cols-1 border-t border-gray-800 dark:border-slate-800">
             <div className="py-[30px] px-0">
-              <div className="grid md:grid-cols-2 items-center">
+              <div className="grid md:grid-cols-3 items-center">
                 <div className="md:text-start text-center">
                   <Link href="#" className="text-[22px] focus:outline-none">
                     <Image
@@ -83,7 +83,15 @@ export default function Footer() {
                     />
                   </Link>
                 </div>
-
+                {/* Privacy Policy tam ortada ve linkli */}
+                <div className="flex justify-center">
+                  <Link
+                    href="/privacy-policy"
+                    className="text-white text-base font-semibold hover:underline"
+                  >
+                    Privacy Policy
+                  </Link>
+                </div>
                 <ul className="list-none footer-list md:text-end text-center mt-6 md:mt-0 space-x-1">
                   <li className="inline">
                     <Link
